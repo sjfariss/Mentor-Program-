@@ -1,0 +1,165 @@
+body {
+  background: #E6DADA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* font-family: 'Metamorphous', cursive; */
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  font-display: bold;
+  color: white;
+  width: 100%;
+  background:black;  /* fallback for old browsers */
+  position: fixed;
+  bottom: 0px;
+  height: 30px;
+  padding-top: 5px;
+}
+
+ #intro {
+   color: white;
+   text-align: center;
+ }
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+.jumbotron {
+  background-image: url("http://waltir.com/wp-content/uploads/2017/08/cropped-qtq50-UArAnS-2.jpeg");
+  /* background-size: cover; */
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  border-radius: 0px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.carousel-inner > .item > img  {
+  width: 100%; 
+  height: 200px; 
+  display:block;  
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.carouselSlides > .item > img {
+  width: 100%; 
+  height: 200px; 
+  display:block;  
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+#welcome {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#h3 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+#one {
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+}
+#two {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+}
+#btn1 {
+  transition: transform .2s;
+  background-color: transparent;
+  border-color: white;
+  border-width: .1px;
+  border-radius: 0px;
+}
+#btn1:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+#btn2 {
+  transition: transform .2s;
+  background-color: transparent;
+  border-color: white;
+  border-width: .1px;
+  border-radius: 0px;
+}
+#btn2:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+
+#menForm {
+  background-color: whitesmoke;
+  opacity: 80%;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+
+#FAQ {
+  background-color: whitesmoke;
+  opacity: 80%;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+#about {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  /* text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; */
+}
+
+#abt {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  /* text-shadow: -1px -1px 0 #000, */
+  /* 1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; */
+}
+
+#carouselSlides 
+{}
